@@ -1,4 +1,4 @@
-package com.github.algorithm;
+package com.github.algorithm.twosum;
 
 import java.util.HashMap;
 import java.util.Map;
