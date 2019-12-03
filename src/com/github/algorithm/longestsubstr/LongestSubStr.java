@@ -1,4 +1,4 @@
-package com.github.algorithm;
+package com.github.algorithm.longestsubstr;
 
 import java.util.ArrayList;
 import java.util.HashSet;
