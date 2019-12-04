@@ -12,7 +12,7 @@ import java.util.Set;
 public class LongestSubStr {
     public static void main(String[] args){
         LongestSubStr longestSubStr = new LongestSubStr();
-        System.out.println(longestSubStr.lengthOfLongestSubstringNew("pwwkew"));
+        System.out.println(longestSubStr.lengthOfLongestSubstringNew("abcabcbb"));
     }
 
     public int lengthOfLongestSubstring(String s) {
@@ -59,7 +59,7 @@ public class LongestSubStr {
         while(i < n && j < n){
             if(!set.contains(s.charAt(j))){
                 set.add(s.charAt(j++));
-                res = Math.max(set.size(), j - i);
+                res = Math.max(res, j - i);
             }else{
                 set.remove(s.charAt(i++));
             }
