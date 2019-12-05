@@ -10,7 +10,7 @@ public class MidNum {
         int[] b = new int[]{2};
 
         MidNum midNum = new MidNum();
-        System.out.print(midNum.findMedianSortedArraysNew(a, b));
+        System.out.print(midNum.findMedianSortedArrays(a, b));
     }
 
     public double findMedianSortedArraysOne(int[] nums1, int[] nums2) {

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algorithm-exercise/com/github/algorithm/midnum/MidNum.class" afterPath="$PROJECT_DIR$/out/production/algorithm-exercise/com/github/algorithm/midnum/MidNum.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/algorithm/midnum/MidNum.java" afterPath="$PROJECT_DIR$/src/com/github/algorithm/midnum/MidNum.java" />
     </list>
@@ -40,8 +39,8 @@
       <file leaf-file-name="MidNum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/midnum/MidNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="107" column="75" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="75" />
+            <state relative-caret-position="-986">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -804,12 +803,12 @@
       <updated>1575206779064</updated>
       <workItem from="1575206782558" duration="6610000" />
       <workItem from="1575428202089" duration="4596000" />
-      <workItem from="1575534135104" duration="3351000" />
+      <workItem from="1575534135104" duration="3857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14557000" />
+    <option name="totallyTimeSpent" value="15063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -961,8 +960,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/midnum/MidNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="107" column="75" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="75" />
+        <state relative-caret-position="-986">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
