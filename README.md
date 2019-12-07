@@ -8,4 +8,6 @@ midnum：中位数计算
 
 palindromicsubstr：最长回文子串
 
+reverseint：整数反序
+
 twosum:：两数之和的计算
