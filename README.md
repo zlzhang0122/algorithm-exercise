@@ -1,4 +1,4 @@
-#algorithm-exercise
+# algorithm-exercise
 
 addtwonum：两数按位相加
 
