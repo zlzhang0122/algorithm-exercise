@@ -11,3 +11,5 @@ palindromicsubstr：最长回文子串
 reverseint：整数反序
 
 twosum:：两数之和的计算
+
+reversenode:：单链表反转

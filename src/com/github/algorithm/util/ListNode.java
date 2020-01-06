@@ -11,5 +11,10 @@ public class ListNode {
 
     public ListNode(int x) {
         val = x;
+        next = null;
+    }
+
+    public String toString(){
+        return "val:" + val + "->" + (next != null ? next.toString() : "null");
     }
 }
