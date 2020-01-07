@@ -19,8 +19,8 @@ public class ListNodeReverse {
         listNode4.next = listNode5;
         System.out.println(listNode1);
 
-//        ListNode listNodeOne = reverseWithoutLoop(listNode1);
-//        System.out.println(listNodeOne);
+        ListNode listNodeOne = reverseWithoutLoop(listNode1);
+        System.out.println(listNodeOne);
 
         ListNode listNodeTwo = reverseWithLoop(listNode1);
         System.out.println(listNodeTwo);
