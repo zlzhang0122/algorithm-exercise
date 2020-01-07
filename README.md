@@ -14,4 +14,6 @@ twosum:：两数之和的计算
 
 reversenode:：单链表反转
 
-stocktrade:：股票交易最大收益
+stocktrade:：股票交易一次、无数次计算最大收益
+
+noderemove:：移除链表的倒数第n个几点
