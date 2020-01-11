@@ -8,6 +8,8 @@ midnum：中位数计算
 
 noderemove：移除链表的倒数第n个几点
 
+nodesort：单链表排序(插入排序)
+
 palindromicsubstr：最长回文子串
 
 reverseint：整数反序
