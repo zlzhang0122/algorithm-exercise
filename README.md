@@ -6,6 +6,8 @@ longestsubstr：最长的无重复子串
 
 midnum：中位数计算
 
+mostwater：盛最多的水
+
 noderemove：移除链表的倒数第n个几点
 
 nodesort：单链表排序(插入排序)
