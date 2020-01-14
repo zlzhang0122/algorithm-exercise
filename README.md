@@ -2,6 +2,8 @@
 
 addtwonum：两数按位相加
 
+expressionmatch：字符串正则匹配
+
 longestsubstr：最长的无重复子串
 
 midnum：中位数计算
