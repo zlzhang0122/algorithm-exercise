@@ -1,6 +1,8 @@
 package com.github.algorithm.stocktrade;
 
 /**
+ * 股票交易
+ *
  * @Author: zlzhang0122
  * @Date: 2020/1/6 5:53 PM
  */
