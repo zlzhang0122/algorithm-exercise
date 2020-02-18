@@ -17,15 +17,41 @@ public class LowestCommonAncestor {
         int rootData = scanner.nextInt();
 
         TreeNode root = new TreeNode(rootData);
-        boolean flag = false;
         for(int i = 0; i < line; i++){
             int itemRoot = scanner.nextInt();
             int itemLeft = scanner.nextInt();
             int itemRight = scanner.nextInt();
 
-
+            TreeNode node = findByValue(root, itemRoot);
+            if(itemLeft != 0){
+                TreeNode left = new TreeNode(itemLeft);
+                node.left = left;
+            }
+            if(itemRight != 0){
+                TreeNode right = new TreeNode(itemRight);
+                node.right = right;
+            }
         }
+        System.out.println(root);
     }
 
-
+    private static  TreeNode findByValue(TreeNode root, int value){
+        if(root == null){
+            return null;
+        }
+        if(root.data == value){
+            return root;
+        }
+        TreeNode left = findByValue(root.left, value);
+        if(left != null){
+            return left;
+        }else{
+            TreeNode right = findByValue(root.right, value);
+            if(right == null){
+                return null;
+            }else {
+                return right;
+            }
+        }
+    }
 }
