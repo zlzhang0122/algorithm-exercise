@@ -17,6 +17,6 @@ public class TreeNode {
     }
 
     public String toString(){
-        return data + ":" + ((left != null) ? left.data : "null") + "," + ((right != null) ? right.data : "null");
+        return data + ":" + ((left != null) ? left.toString() : "null") + "," + ((right != null) ? right.toString() : "null");
     }
 }

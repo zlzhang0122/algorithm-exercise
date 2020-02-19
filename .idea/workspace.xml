@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/algorithm/lowestCommonAncestor/LowestCommonAncestor.java" afterPath="$PROJECT_DIR$/src/com/github/algorithm/lowestCommonAncestor/LowestCommonAncestor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/algorithm/util/TreeNode.java" afterPath="$PROJECT_DIR$/src/com/github/algorithm/util/TreeNode.java" />
     </list>
     <ignored path="algorithm-exercise.iws" />
@@ -47,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LowestCommonAncestor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LowestCommonAncestor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/lowestCommonAncestor/LowestCommonAncestor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/util/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="98" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
+            <state relative-caret-position="255">
+              <caret line="19" column="115" selection-start-line="19" selection-start-column="115" selection-end-line="19" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -109,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/com/github/algorithm/util/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/github/algorithm/stocktrade/StockOne.java" />
         <option value="$PROJECT_DIR$/src/com/github/algorithm/twonum/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/com/github/algorithm/util/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/github/algorithm/lowestCommonAncestor/LowestCommonAncestor.java" />
+        <option value="$PROJECT_DIR$/src/com/github/algorithm/util/TreeNode.java" />
       </list>
     </option>
   </component>
@@ -120,9 +119,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="198" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="423" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1133,12 +1132,12 @@
       <workItem from="1579003350496" duration="2581000" />
       <workItem from="1581468664663" duration="2076000" />
       <workItem from="1581952420286" duration="1534000" />
-      <workItem from="1582042226867" duration="1462000" />
+      <workItem from="1582042226867" duration="1749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47544000" />
+    <option name="totallyTimeSpent" value="47831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1150,7 +1149,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="198" width="1280" height="423" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1612,21 +1611,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/lowestCommonAncestor/LowestCommonAncestor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/util/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="19" column="115" selection-start-line="19" selection-start-column="115" selection-end-line="19" selection-end-column="115" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/util/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/lowestCommonAncestor/LowestCommonAncestor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="98" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
