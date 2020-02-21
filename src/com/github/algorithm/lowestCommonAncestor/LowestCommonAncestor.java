@@ -33,8 +33,17 @@ public class LowestCommonAncestor {
             }
         }
         System.out.println(root);
+
+
     }
 
+    /**
+     * 根据节点值查找
+     *
+     * @param root
+     * @param value
+     * @return
+     */
     private static  TreeNode findByValue(TreeNode root, int value){
         if(root == null){
             return null;
