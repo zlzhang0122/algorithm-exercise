@@ -6,6 +6,8 @@ expressionmatch：字符串正则匹配
 
 longestsubstr：最长的无重复子串
 
+lowestCommonAncestor:二叉树两节点最近公共祖先
+
 midnum：中位数计算
 
 mostwater：盛最多的水
