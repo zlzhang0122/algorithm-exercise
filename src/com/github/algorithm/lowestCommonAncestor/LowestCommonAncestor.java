@@ -35,6 +35,15 @@ public class LowestCommonAncestor {
         System.out.println(root);
 
 
+        System.out.println("please input two node value to find their ancestor:");
+        int left = scanner.nextInt();
+        int right = scanner.nextInt();
+
+        TreeNode leftNode = findByValue(root, left);
+        TreeNode rightNode = findByValue(root, right);
+
+        TreeNode ancestor = lowestCommonAncestor(root, leftNode, rightNode);
+        System.out.println(ancestor.data);
     }
 
     /**
@@ -62,5 +71,29 @@ public class LowestCommonAncestor {
                 return right;
             }
         }
+    }
+
+
+    /**
+     * 查找最近公共父节点
+     *
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
+    private static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q){
+        if(root == null || root == p || root == q){
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if(left == null){
+            return right;
+        }else if(right == null){
+            return left;
+        }
+
+        return root;
     }
 }
