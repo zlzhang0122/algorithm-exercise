@@ -8,6 +8,8 @@ expressionmatch：字符串正则匹配
 
 longestsubstr：最长的无重复子串
 
+mergetwolists：两个有序链表的合并
+
 lowestCommonAncestor:二叉树两节点最近公共祖先
 
 midnum：中位数计算

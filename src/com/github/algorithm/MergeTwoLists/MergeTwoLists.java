@@ -1,8 +1,6 @@
-package com.github.algorithm.MergeTwoLists;
+package com.github.algorithm.mergetwolists;
 
 import com.github.algorithm.util.ListNode;
-
-import java.util.List;
 
 /**
  * 合并两个有序链表
