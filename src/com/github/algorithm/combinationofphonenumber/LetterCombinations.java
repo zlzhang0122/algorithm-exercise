@@ -29,13 +29,13 @@ public class LetterCombinations {
 
     public static void main(String[] args){
         LetterCombinations letterCombinations = new LetterCombinations();
-        letterCombinations.letterCombinations2("234");
+        letterCombinations.letterCombinations("234");
         for(String s : list){
             System.out.println(s + " ");
         }
 
-        list = letterCombinations.letterCombinations2("234");
-        for(String s : list){
+        List<String> res = letterCombinations.letterCombinations2("234");
+        for(String s : res){
             System.out.println(s + " ");
         }
     }
