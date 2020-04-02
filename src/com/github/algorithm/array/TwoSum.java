@@ -1,4 +1,4 @@
-package com.github.algorithm.twonum;
+package com.github.algorithm.array;
 
 import java.util.HashMap;
 import java.util.Map;
