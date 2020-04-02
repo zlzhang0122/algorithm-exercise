@@ -1,6 +1,6 @@
 # algorithm-exercise
 
-binarytree：全部都是二叉树的相关算法题目
+binarytree：全部都是二叉树的相关算法题目，包括二叉树的中序递归和非递归遍历
 
 addtwonum：两数按位相加
 
