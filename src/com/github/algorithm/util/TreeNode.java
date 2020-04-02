@@ -7,16 +7,16 @@ package com.github.algorithm.util;
  * @Date: 2020/2/17 11:35 PM
  */
 public class TreeNode {
-    public int data;
+    public int val;
 
     public TreeNode left;
     public TreeNode right;
 
-    public TreeNode(int data){
-        this.data = data;
+    public TreeNode(int val){
+        this.val = val;
     }
 
     public String toString(){
-        return data + ":" + ((left != null) ? left.toString() : "null") + "," + ((right != null) ? right.toString() : "null");
+        return val + ":" + ((left != null) ? left.toString() : "null") + "," + ((right != null) ? right.toString() : "null");
     }
 }

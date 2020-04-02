@@ -1,4 +1,4 @@
-package com.github.algorithm.lowestCommonAncestor;
+package com.github.algorithm.binarytree;
 
 import com.github.algorithm.util.TreeNode;
 
@@ -43,7 +43,7 @@ public class LowestCommonAncestor {
         TreeNode rightNode = findByValue(root, right);
 
         TreeNode ancestor = lowestCommonAncestor(root, leftNode, rightNode);
-        System.out.println(ancestor.data);
+        System.out.println(ancestor.val);
     }
 
     /**
@@ -57,7 +57,7 @@ public class LowestCommonAncestor {
         if(root == null){
             return null;
         }
-        if(root.data == value){
+        if(root.val == value){
             return root;
         }
         TreeNode left = findByValue(root.left, value);
