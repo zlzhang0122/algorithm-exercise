@@ -7,13 +7,12 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * 二叉树中序遍历
+ * 二叉树先序遍历
  *
  * @Author: zlzhang0122
- * @Date: 2020/4/2 8:42 PM
+ * @Date: 2020/4/2 9:46 PM
  */
-public class InOrderTraversal {
-
+public class PreOrderTraversal {
     public static void main(String[] args){
         TreeNode treeNode1 = new TreeNode(1);
         TreeNode treeNode2 = new TreeNode(2);
@@ -25,37 +24,37 @@ public class InOrderTraversal {
         treeNode3.left = null;
         treeNode3.right = null;
 
-        InOrderTraversal inOrderTraversal = new InOrderTraversal();
+        PreOrderTraversal preOrderTraversal = new PreOrderTraversal();
 
         System.out.println("recursive:");
-        List<Integer> list = inOrderTraversal.inorderTraversalRecursive(treeNode1);
+        List<Integer> list = preOrderTraversal.preOrderTraversalRecursive(treeNode1);
         for(Integer item : list){
             System.out.println(item);
         }
 
         System.out.println("iteratively:");
-        List<Integer> otherList = inOrderTraversal.inorderTraversalIteratively(treeNode1);
+        List<Integer> otherList = preOrderTraversal.preOrderTraversalIteratively(treeNode1);
         for(Integer item : otherList){
             System.out.println(item);
         }
     }
 
     /**
-     * 递归实现
+     * 递归实现先序遍历
      *
      * @param root
      * @return
      */
-    private List<Integer> inorderTraversalRecursive(TreeNode root) {
+    private List<Integer> preOrderTraversalRecursive(TreeNode root){
         List<Integer> list = new ArrayList<>();
         traversalRecursive(list, root);
         return list;
     }
 
     /**
-     * 递归
+     * 递归实现先序遍历
      *
-     * @param list
+     * @param root
      * @param root
      */
     private void traversalRecursive(List<Integer> list, TreeNode root){
@@ -63,18 +62,18 @@ public class InOrderTraversal {
             return;
         }
 
-        traversalRecursive(list, root.left);
         list.add(root.val);
+        traversalRecursive(list, root.left);
         traversalRecursive(list, root.right);
     }
 
     /**
-     * 循环实现
+     * 循环实现先序遍历
      *
      * @param root
      * @return
      */
-    private List<Integer> inorderTraversalIteratively(TreeNode root) {
+    private List<Integer> preOrderTraversalIteratively(TreeNode root){
         List<Integer> list = new ArrayList<>();
 
         if(root == null){
@@ -83,14 +82,13 @@ public class InOrderTraversal {
 
         Stack<TreeNode> stack = new Stack<>();
         TreeNode node = root;
-        while(!stack.isEmpty() || node != null){
+        while(node != null || !stack.isEmpty()){
             while(node != null){
+                list.add(node.val);
                 stack.push(node);
                 node = node.left;
             }
-
             node = stack.pop();
-            list.add(node.val);
             node = node.right;
         }
 
