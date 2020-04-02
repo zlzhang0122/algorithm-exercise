@@ -4,6 +4,7 @@ import com.github.algorithm.util.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * 二叉树的中序遍历
@@ -25,8 +26,13 @@ public class InOrderTraversal {
         treeNode3.right = null;
 
         InOrderTraversal inOrderTraversal = new InOrderTraversal();
-        List<Integer> list = inOrderTraversal.inorderTraversal(treeNode1);
+        List<Integer> list = inOrderTraversal.inorderTraversalRecursive(treeNode1);
         for(Integer item : list){
+            System.out.println(item);
+        }
+
+        List<Integer> otherList = inOrderTraversal.inorderTraversalIteratively(treeNode1);
+        for(Integer item : otherList){
             System.out.println(item);
         }
     }
@@ -37,9 +43,9 @@ public class InOrderTraversal {
      * @param root
      * @return
      */
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversalRecursive(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        traversal(list, root);
+        traversalRecursive(list, root);
         return list;
     }
 
@@ -49,13 +55,42 @@ public class InOrderTraversal {
      * @param list
      * @param root
      */
-    public void traversal(List<Integer> list, TreeNode root){
+    public void traversalRecursive(List<Integer> list, TreeNode root){
         if(root == null){
             return;
-        }else{
-            traversal(list, root.left);
-            list.add(root.val);
-            traversal(list, root.right);
         }
+
+        traversalRecursive(list, root.left);
+        list.add(root.val);
+        traversalRecursive(list, root.right);
+    }
+
+    /**
+     * 循环实现
+     *
+     * @param root
+     * @return
+     */
+    public List<Integer> inorderTraversalIteratively(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+
+        if(root == null){
+            return list;
+        }
+
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode node = root;
+        while(!stack.isEmpty() || node != null){
+            while(node != null){
+                stack.push(node);
+                node = node.left;
+            }
+
+            node = stack.pop();
+            list.add(node.val);
+            node = node.right;
+        }
+
+        return list;
     }
 }
