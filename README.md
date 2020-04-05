@@ -7,6 +7,8 @@ binarytree：全部都是二叉树的相关算法题目，包括
 
   * 二叉树的后序递归和非递归遍历
 
+  * 二叉查找树的个数
+
 addtwonum：两数按位相加
 
 combinationofphonenumber：电话号码代表的字母组合
