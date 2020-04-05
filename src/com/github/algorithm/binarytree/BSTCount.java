@@ -16,7 +16,7 @@ public class BSTCount {
         System.out.println(res);
     }
 
-    public static int numTrees(int n){
+    private static int numTrees(int n){
         if(n <= 0){
             return 1;
         }
