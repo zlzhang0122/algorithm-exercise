@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 二叉搜索树可能性
+ * 二叉搜索树的所有可能性子树
  *
  * @Author: zlzhang0122
  * @Date: 2020/4/5 11:07 PM
