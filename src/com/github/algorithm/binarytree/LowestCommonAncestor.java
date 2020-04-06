@@ -5,7 +5,7 @@ import com.github.algorithm.util.TreeNode;
 import java.util.Scanner;
 
 /**
- * 最近公共祖先
+ * 二叉树的最近公共祖先
  *
  * @Author: zlzhang0122
  * @Date: 2020/2/17 11:33 PM
