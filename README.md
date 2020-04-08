@@ -15,6 +15,8 @@ binarytree：全部都是二叉树的相关算法题目，包括
 
   * 二叉搜索树的验证(LeetCode 98)
 
+  * 二叉搜索树的恢复(LeetCode 99)
+
 
 addtwonum：两数按位相加
 
