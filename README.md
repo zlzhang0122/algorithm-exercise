@@ -1,6 +1,6 @@
 # algorithm-exercise
 
-binarytree：全部都是二叉树的相关算法题目，包括
+### binarytree：
   * 二叉树的最近公共祖先(LeetCode 236)
 
   * 二叉树的先序递归和非递归遍历(LeetCode 144)
@@ -24,6 +24,10 @@ binarytree：全部都是二叉树的相关算法题目，包括
   * 判断对称树(LeetCode 101)
 
   * 二叉树层序遍历(LeetCode 102)
+
+  * 二叉树层序之字型遍历(LeetCode 103)
+
+  * 二叉树的最大深度(LeetCode 104)
 
 
 addtwonum：两数按位相加

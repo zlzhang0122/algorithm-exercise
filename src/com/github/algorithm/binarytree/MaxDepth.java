@@ -2,18 +2,16 @@ package com.github.algorithm.binarytree;
 
 import com.github.algorithm.util.TreeNode;
 
-import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
- * 二叉树层序遍历
+ * 二叉树的最大深度
  *
  * @Author: zlzhang0122
- * @Date: 2020/4/12 11:31 AM
+ * @Date: 2020/4/12 8:30 PM
  */
-public class LevelOrderQueue {
+public class MaxDepth {
     public static void main(String[] args){
         TreeNode treeNode1 = new TreeNode(1);
         TreeNode treeNode2 = new TreeNode(2);
@@ -25,32 +23,35 @@ public class LevelOrderQueue {
         treeNode3.left = null;
         treeNode3.right = null;
 
-        List<List<Integer>> res = levelOrder(treeNode1);
-        System.out.println(res);
+        int depth = maxDepth2(treeNode1);
+        System.out.println(depth);
     }
 
-    private static List<List<Integer>> levelOrder(TreeNode root){
-        List<List<Integer>> res = new ArrayList<>();
+    private static int maxDepth(TreeNode root){
+        int depth = 0;
         if(root == null){
-            return res;
+            return depth;
         }
         Deque<TreeNode> queue = new LinkedList<>();
-        queue.addLast(root);
+        queue.offerLast(root);
         while(!queue.isEmpty()){
-            int size = queue.size();
-            List<Integer> itemList = new ArrayList<>();
-            for(int i = 0; i < size; i++){
-                TreeNode node = queue.pollFirst();
-                itemList.add(node.val);
+            depth++;
+            int num = queue.size();
+            for(int i = 0; i< num; i++){
+                TreeNode node = queue.removeLast();
                 if(node.left != null){
-                    queue.addLast(node.left);
+                    queue.offerLast(node.left);
                 }
                 if(node.right != null){
-                    queue.addLast(node.right);
+                    queue.offerLast(node.right);
                 }
             }
-            res.add(itemList);
         }
-        return res;
+
+        return depth;
+    }
+
+    private static int maxDepth2(TreeNode root){
+        return root == null ? 0 : 1 + Math.max(maxDepth2(root.left), maxDepth2(root.right));
     }
 }
