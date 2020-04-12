@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/github/algorithm/binarytree/InAndPostBuildTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/algorithm/binarytree/InAndPostBuildTree.java" afterPath="$PROJECT_DIR$/src/com/github/algorithm/binarytree/InAndPostBuildTree.java" />
     </list>
     <ignored path="algorithm-exercise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="InAndPostBuildTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/binarytree/InAndPostBuildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -905,12 +904,12 @@
       <workItem from="1585831272876" duration="8919000" />
       <workItem from="1586095176121" duration="6619000" />
       <workItem from="1586609827923" duration="4320000" />
-      <workItem from="1586662277967" duration="6211000" />
+      <workItem from="1586662277967" duration="6619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87060000" />
+    <option name="totallyTimeSpent" value="87468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1389,8 +1388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/algorithm/binarytree/InAndPostBuildTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding />
         </state>
       </provider>

@@ -25,14 +25,14 @@ public class InAndPostBuildTree {
             return null;
         }
         int i = 0;
-        for(i = lstart; i <= lend; i++){
-            if(postorder[rend] == inorder[i]){
+        for(; i <= lend; i++){
+            if(postorder[rend] == inorder[lstart + i]){
                 break;
             }
         }
         TreeNode treeNode = new TreeNode(postorder[rend]);
-        treeNode.left = build(inorder, lstart,  i - 1, postorder, rstart, rstart + i - lstart - 1);
-        treeNode.right = build(inorder, i + 1, lend, postorder, rstart + i - lstart, rend - 1);
+        treeNode.left = build(inorder, lstart,  lstart + i - 1, postorder, rstart, rstart + i - 1);
+        treeNode.right = build(inorder, lstart + i + 1, lend, postorder, rstart + i, rend - 1);
         return treeNode;
     }
 }
