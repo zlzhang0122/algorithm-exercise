@@ -51,4 +51,32 @@ public class LevelOrderQueue2 {
         Collections.reverse(res);
         return res;
     }
+
+    private static List<List<Integer>> levelOrder21(TreeNode root){
+        List<List<Integer>> res = new ArrayList<>();
+        if(root == null){
+            return res;
+        }
+        int maxHeight = height(root);
+        for(int i = 0; i< maxHeight; i++){
+            res.add(new ArrayList<>());
+        }
+        findAns(res, root, 0);
+        Collections.reverse(res);
+
+        return res;
+    }
+
+    private static void findAns(List<List<Integer>> ans, TreeNode node, int num){
+        if(node == null){
+            return;
+        }
+        ans.get(num).add(node.val);
+        findAns(ans, node.left, num + 1);
+        findAns(ans, node.right, num + 1);
+    }
+
+    private static int height(TreeNode root){
+        return root == null ? 0 : Math.max(height(root.left),height(root.right)) + 1;
+    }
 }
