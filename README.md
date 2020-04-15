@@ -1,6 +1,7 @@
 # algorithm-exercise
 
 ### binarytree：
+
   * 二叉树的最近公共祖先(LeetCode 236)
 
   * 二叉树的先序递归和非递归遍历(LeetCode 144)
@@ -70,5 +71,7 @@ stocktrade:：股票交易一次、无数次计算最大收益
 
 twosum:：两数之和的计算
 
-### util
+
+### util：
+
   * 一些使用到的工具类
