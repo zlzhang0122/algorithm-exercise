@@ -35,6 +35,10 @@
 
   * 二叉树层序遍历二(LeetCode 107)
 
+  * 转换数组为二叉查找树(LeetCode 108)
+
+  * 树高平衡的二叉树(LeetCode 110)
+
 
 addtwonum：两数按位相加
 
