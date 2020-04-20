@@ -42,6 +42,8 @@
 
   * 二叉树的最小高度(LeetCode 111)
 
+  * 二叉树的路径和(LeetCode 112)
+
 
 addtwonum：两数按位相加
 

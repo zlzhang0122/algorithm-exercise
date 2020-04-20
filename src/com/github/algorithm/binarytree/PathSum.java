@@ -3,7 +3,7 @@ package com.github.algorithm.binarytree;
 import com.github.algorithm.util.TreeNode;
 
 /**
- * 路径之和
+ * 二叉树的路径之和
  *
  * @Author: zlzhang0122
  * @Date: 2020/4/20 7:41 PM
