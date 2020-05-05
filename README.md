@@ -1,5 +1,8 @@
 # algorithm-exercise
 
+### 思维导图
+![思维导图](../img/algorithm.jpeg "思维导图")
+
 ### binarytree：
 
   * 二叉树的最近公共祖先(LeetCode 236)
