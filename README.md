@@ -5,13 +5,13 @@
 
 ### binarytree：
 
-  * 二叉树的最近公共祖先(LeetCode 236)
+  * LowestCommonAncestor：二叉树的最近公共祖先(LeetCode 236)
 
-  * 二叉树的先序递归和非递归遍历(LeetCode 144)
+  * PreOrderTraversal：二叉树的先序递归和非递归遍历(LeetCode 144)
 
-  * 二叉树的中序递归和非递归遍历(LeetCode 94)
+  * InOrderTraversal：二叉树的中序递归和非递归遍历(LeetCode 94)
 
-  * 二叉树的后序递归和非递归遍历(LeetCode 145)
+  * PostOrderTraversal：二叉树的后序递归和非递归遍历(LeetCode 145)
 
   * 二叉查找树的个数(LeetCode 96)
 
