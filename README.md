@@ -1,7 +1,7 @@
 # algorithm-exercise
 
 ### 思维导图
-![思维导图](../img/algorithm.jpeg "思维导图")
+![思维导图](../master/img/algorithm.jpeg "思维导图")
 
 ### binarytree：
 
