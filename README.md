@@ -35,7 +35,7 @@
 
   * InAndPostBuildTree：根据二叉树中序和后序结果构造二叉树(LeetCode 106)
 
-  * LevelOrderQueue2：二叉树层序遍历二(LeetCode 107)
+  * LevelOrderQueueII：二叉树层序遍历II(LeetCode 107)
 
   * SortedArrayBST：转换数组为二叉查找树(LeetCode 108)
 
@@ -44,6 +44,8 @@
   * MinDepth：二叉树的最小高度(LeetCode 111)
 
   * PathSum：二叉树的路径和(LeetCode 112)
+
+  * PathSumII:二叉树的路径之和II(LeetCode 113)
 
 
 ### 其它结构：
