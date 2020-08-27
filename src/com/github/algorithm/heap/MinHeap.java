@@ -3,12 +3,12 @@ package com.github.algorithm.heap;
 import java.util.Arrays;
 
 /**
- * 大顶堆(即根节点大于左右子树的堆)
+ * 小顶堆(即根节点小于左右子树的堆)
  *
  * @Author: zlzhang0122
  * @Date: 2020/8/27 4:45 下午
  */
-public class MaxHeap {
+public class MinHeap {
     public static int left(int i){
         return (i + 1) * 2 -1;
     }
