@@ -1,4 +1,4 @@
-package com.github.algorithm.midnum;
+package com.github.algorithm.integer;
 
 /**
  * 中位数计算

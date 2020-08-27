@@ -1,4 +1,4 @@
-package com.github.algorithm.reverseint;
+package com.github.algorithm.integer;
 
 /**
  * 整数反序

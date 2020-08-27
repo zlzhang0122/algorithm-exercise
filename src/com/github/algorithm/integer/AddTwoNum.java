@@ -1,4 +1,4 @@
-package com.github.algorithm.addtwonum;
+package com.github.algorithm.integer;
 
 import com.github.algorithm.util.ListNode;
 
