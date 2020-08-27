@@ -21,21 +21,26 @@ public class MaxHeap {
         return (i - 1) / 2;
     }
 
+    public static void setRoot(int[] arr, int root, int k){
+        arr[0] = root;
+        heapKeep(arr, 0, k);
+    }
+
     public static void heapKeep(int[] arr, int i, int k){
         int l = left(i);
         int r = right(i);
-        int largest = i;
-        if(l < k && arr[i] < arr[l]){
-            largest = l;
+        int minimal = i;
+        if(l < k && arr[i] > arr[l]){
+            minimal = l;
         }
-        if(r < k && arr[largest] < arr[r]){
-            largest = r;
+        if(r < k && arr[minimal] > arr[r]){
+            minimal = r;
         }
-        if(largest != i){
-            int temp = arr[largest];
-            arr[largest] = arr[i];
+        if(minimal != i){
+            int temp = arr[minimal];
+            arr[minimal] = arr[i];
             arr[i] = temp;
-            heapKeep(arr, largest, k);
+            heapKeep(arr, minimal, k);
         }
     }
 
@@ -52,8 +57,18 @@ public class MaxHeap {
     }
 
     public static void main(String[] args){
-        int[] arr = {1, 5, 2, 3, 8, 4};
-        buildHeap(arr, 6);
-        Arrays.stream(arr).forEach(System.out::println);
+        int[] arr = {1, 5, 2, 3, 6, 4};
+        int[] data = new int[4];
+        for(int i = 0; i < 4; i++){
+            data[i] = arr[i];
+        }
+        buildHeap(data, 4);
+        Arrays.stream(data).forEach(System.out::println);
+        for(int i = 4; i < arr.length; i++){
+            if(arr[i] > data[0]){
+                setRoot(data, arr[i], 4);
+            }
+        }
+        Arrays.stream(data).forEach(System.out::println);
     }
 }

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/heap/MaxHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/algorithm/heap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/algorithm/heap/MaxHeap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,18 +403,9 @@
       <workItem from="1590021400439" duration="652000" />
       <workItem from="1590648815843" duration="680000" />
       <workItem from="1598194340997" duration="597000" />
-      <workItem from="1598515860474" duration="3194000" />
+      <workItem from="1598515860474" duration="4883000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -433,22 +423,22 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="453" y="68" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1590648880091" />
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom" timestamp="1598519808639">
+    <state width="1238" height="293" key="GridCell.Tab.0.bottom" timestamp="1598521540019">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1598519808639" />
-    <state width="1238" height="293" key="GridCell.Tab.0.center" timestamp="1598519808636">
+    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1598521540019" />
+    <state width="1238" height="293" key="GridCell.Tab.0.center" timestamp="1598521540018">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1598519808636" />
-    <state width="1238" height="293" key="GridCell.Tab.0.left" timestamp="1598519808635">
+    <state width="1238" height="293" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1598521540018" />
+    <state width="1238" height="293" key="GridCell.Tab.0.left" timestamp="1598521540018">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1598519808635" />
-    <state width="1238" height="293" key="GridCell.Tab.0.right" timestamp="1598519808637">
+    <state width="1238" height="293" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1598521540018" />
+    <state width="1238" height="293" key="GridCell.Tab.0.right" timestamp="1598521540018">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1598519808637" />
+    <state width="1238" height="293" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1598521540018" />
     <state x="305" y="56" width="670" height="676" key="search.everywhere.popup" timestamp="1598517647348">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
