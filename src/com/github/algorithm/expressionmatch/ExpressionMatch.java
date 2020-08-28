@@ -17,7 +17,7 @@ public class ExpressionMatch {
             return s.isEmpty();
         }
         boolean firstFlag = (!s.isEmpty()) && (s.charAt(0) == p.charAt(0) || (p.charAt(0) == '.'));
-        if(p.length() >=2 && p.charAt(1) == '*'){
+        if(p.length() >= 2 && p.charAt(1) == '*'){
             return (firstFlag && isMatch(s.substring(1), p)) || (isMatch(s, p.substring(2)));
         }else{
             return firstFlag && isMatch(s.substring(1), p.substring(1));

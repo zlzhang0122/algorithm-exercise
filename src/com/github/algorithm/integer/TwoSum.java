@@ -1,4 +1,4 @@
-package com.github.algorithm.array;
+package com.github.algorithm.integer;
 
 import java.util.HashMap;
 import java.util.Map;
