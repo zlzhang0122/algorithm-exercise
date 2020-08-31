@@ -1,4 +1,4 @@
-package com.github.algorithm.heap;
+package com.github.algorithm.other;
 
 import java.util.Arrays;
 

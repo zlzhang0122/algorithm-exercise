@@ -3,7 +3,7 @@
 ### 思维导图
 ![思维导图](../master/img/algorithm.jpeg "思维导图")
 
-### binarytree：
+### 二叉树(binarytree)：
 
   * LowestCommonAncestor：二叉树的最近公共祖先(LeetCode 236)
 
@@ -48,7 +48,7 @@
   * PathSumII:二叉树的路径之和II(LeetCode 113)
 
 
-### 其它结构：
+### 其它结构(other)：
   * addtwonum：两数按位相加
 
   * combinationofphonenumber：电话号码代表的字母组合
@@ -73,11 +73,13 @@
 
   * reversenode：单链表反转
 
-  * sort:：排序算法
+  * sort：排序算法
 
-  * stocktrade:：股票交易一次、无数次计算最大收益
+  * stocktrade：股票交易一次、无数次计算最大收益
 
-  * twosum:：两数之和的计算
+  * twosum：两数之和的计算
+  
+  * MinHeap：小顶堆
 
 
 ### util：
