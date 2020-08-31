@@ -1,4 +1,4 @@
-package com.github.algorithm.nodesort;
+package com.github.algorithm.sort;
 
 import com.github.algorithm.util.ListNode;
 
