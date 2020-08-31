@@ -21,14 +21,14 @@ public class ListNodeReverse {
         listNode4.next = listNode5;
         System.out.println(listNode1);
 
-        ListNode listNodeOne = reverseWithoutLoop(listNode1);
+        ListNode listNodeOne = reverseWithoutRecursion(listNode1);
         System.out.println(listNodeOne);
 
-        ListNode listNodeTwo = reverseWithLoop(listNodeOne);
+        ListNode listNodeTwo = reverseWithRecursion(listNodeOne);
         System.out.println(listNodeTwo);
     }
 
-    private static ListNode reverseWithoutLoop(ListNode head){
+    private static ListNode reverseWithoutRecursion(ListNode head){
         ListNode pre = null, cur = head, nxt = head;
         while(cur != null){
             nxt = cur.next;
@@ -40,11 +40,11 @@ public class ListNodeReverse {
         return pre;
     }
 
-    private static ListNode reverseWithLoop(ListNode head){
+    private static ListNode reverseWithRecursion(ListNode head){
         if(head == null || head.next == null){
             return head;
         }
-        ListNode nodeNext = reverseWithLoop(head.next);
+        ListNode nodeNext = reverseWithRecursion(head.next);
         head.next.next = head;
         head.next = null;
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/other/Feibonaqi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse.java" afterDir="false" />
     </list>
@@ -57,7 +58,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListNodeReverse">
+  <component name="RunManager" selected="Application.Feibonaqi">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -152,6 +153,20 @@
       <listeners />
       <method />
     </configuration>
+    <configuration name="Feibonaqi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.other.Feibonaqi" />
+      <module name="algorithm-exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.algorithm.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.thread.FirstThreadTest" />
       <module name="algorithm-exercise" />
@@ -187,20 +202,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.github.algorithm.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.binarytree.PathSum2" />
-      <module name="algorithm-exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.algorithm.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,19 +342,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PathSum2" />
       <item itemvalue="Application.FirstThreadTest" />
       <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.MinHeap" />
       <item itemvalue="Application.ListNodeReverse" />
+      <item itemvalue="Application.Feibonaqi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Feibonaqi" />
         <item itemvalue="Application.ListNodeReverse" />
         <item itemvalue="Application.MinHeap" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.FirstThreadTest" />
-        <item itemvalue="Application.PathSum2" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +406,7 @@
       <workItem from="1598194340997" duration="597000" />
       <workItem from="1598515860474" duration="5180000" />
       <workItem from="1598537583759" duration="1781000" />
-      <workItem from="1598885518695" duration="1279000" />
+      <workItem from="1598885518695" duration="2048000" />
     </task>
     <servers />
   </component>
@@ -429,22 +430,22 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="128" y="83" key="DiffContextDialog/0.23.1280.709@0.23.1280.709" timestamp="1598582038179" />
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom" timestamp="1598523807227">
+    <state width="1238" height="293" key="GridCell.Tab.0.bottom" timestamp="1598888016770">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1598523807227" />
-    <state width="1238" height="293" key="GridCell.Tab.0.center" timestamp="1598523807226">
+    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1598888016770" />
+    <state width="1238" height="293" key="GridCell.Tab.0.center" timestamp="1598888016769">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1598523807226" />
-    <state width="1238" height="293" key="GridCell.Tab.0.left" timestamp="1598523807226">
+    <state width="1238" height="293" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1598888016769" />
+    <state width="1238" height="293" key="GridCell.Tab.0.left" timestamp="1598888016768">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1598523807226" />
-    <state width="1238" height="293" key="GridCell.Tab.0.right" timestamp="1598523807227">
+    <state width="1238" height="293" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1598888016768" />
+    <state width="1238" height="293" key="GridCell.Tab.0.right" timestamp="1598888016770">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1598523807227" />
+    <state width="1238" height="293" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1598888016770" />
     <state x="369" y="87" key="RollbackChangesDialog" timestamp="1598582039776">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
