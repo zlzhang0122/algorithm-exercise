@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinHeap">
+  <component name="RunManager" selected="Application.ListNodeReverse">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -165,13 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.heap.MinHeap" />
+    <configuration name="ListNodeReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.reversenode.ListNodeReverse" />
       <module name="algorithm-exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.algorithm.heap.*" />
+          <option name="PATTERN" value="com.github.algorithm.reversenode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,13 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.binarytree.PathSum" />
+    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.other.MinHeap" />
       <module name="algorithm-exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.algorithm.binarytree.*" />
+          <option name="PATTERN" value="com.github.algorithm.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,19 +341,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PathSum" />
       <item itemvalue="Application.PathSum2" />
       <item itemvalue="Application.FirstThreadTest" />
       <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.MinHeap" />
+      <item itemvalue="Application.ListNodeReverse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListNodeReverse" />
         <item itemvalue="Application.MinHeap" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.FirstThreadTest" />
         <item itemvalue="Application.PathSum2" />
-        <item itemvalue="Application.PathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -404,6 +405,7 @@
       <workItem from="1598194340997" duration="597000" />
       <workItem from="1598515860474" duration="5180000" />
       <workItem from="1598537583759" duration="1781000" />
+      <workItem from="1598885518695" duration="1279000" />
     </task>
     <servers />
   </component>
@@ -455,16 +457,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/github/algorithm/nodesort/NodeSort.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/github/algorithm/nodesort/NodeSort.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/github/algorithm/binarytree/PathSum2.java</url>
           <line>52</line>

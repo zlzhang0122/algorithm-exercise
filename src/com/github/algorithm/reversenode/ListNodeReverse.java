@@ -24,18 +24,17 @@ public class ListNodeReverse {
         ListNode listNodeOne = reverseWithoutLoop(listNode1);
         System.out.println(listNodeOne);
 
-        ListNode listNodeTwo = reverseWithLoop(listNode1);
+        ListNode listNodeTwo = reverseWithLoop(listNodeOne);
         System.out.println(listNodeTwo);
     }
 
     private static ListNode reverseWithoutLoop(ListNode head){
-        ListNode pre = head, cur = head.next, tmp;
-        pre.next = null;
+        ListNode pre = null, cur = head, nxt = head;
         while(cur != null){
-            tmp = cur.next;
+            nxt = cur.next;
             cur.next = pre;
             pre = cur;
-            cur = tmp;
+            cur = nxt;
         }
 
         return pre;
