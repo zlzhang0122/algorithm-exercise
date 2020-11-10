@@ -44,6 +44,9 @@ public class LowestCommonAncestor {
 
         TreeNode ancestor = lowestCommonAncestor(root, leftNode, rightNode);
         System.out.println(ancestor.val);
+
+        TreeNode ancestor1 = lowestCommonAncestor1(root, leftNode, rightNode);
+        System.out.println(ancestor1.val);
     }
 
     /**
@@ -94,5 +97,26 @@ public class LowestCommonAncestor {
         }
 
         return root;
+    }
+
+
+    public static TreeNode lowestCommonAncestor1(TreeNode node, TreeNode left, TreeNode right){
+        if(node == null){
+            return null;
+        }
+        if(node == left || node == right){
+            return node;
+        }
+
+        if(lowestCommonAncestor1(node.left, left, right) == null &&
+                lowestCommonAncestor1(node.right, left, right) == null){
+            return node;
+        }else if(lowestCommonAncestor1(node.left, left, right) == null){
+            return node.right;
+        }else if(lowestCommonAncestor1(node.right, left, right) == null){
+            return node.left;
+        }else{
+            return node;
+        }
     }
 }
