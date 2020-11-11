@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/binarytree/NextNodeConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/util/ListTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/algorithm/binarytree/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/algorithm/binarytree/LowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/algorithm/binarytree/NextNodeConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/algorithm/binarytree/NextNodeConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LowestCommonAncestor">
+  <component name="RunManager" selected="Application.NextNodeConnect">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -353,8 +351,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LowestCommonAncestor" />
         <item itemvalue="Application.NextNodeConnect" />
+        <item itemvalue="Application.LowestCommonAncestor" />
         <item itemvalue="Application.Feibonaqi" />
         <item itemvalue="Application.ListNodeReverse" />
         <item itemvalue="Application.MinHeap" />
@@ -414,7 +412,7 @@
       <workItem from="1599563806044" duration="1045000" />
       <workItem from="1603188311430" duration="1536000" />
       <workItem from="1604911529630" duration="3055000" />
-      <workItem from="1605013728346" duration="713000" />
+      <workItem from="1605013728346" duration="1832000" />
     </task>
     <servers />
   </component>

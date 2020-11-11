@@ -33,16 +33,11 @@ public class NextNodeConnect {
         node7.right = null;
 
         System.out.println(node1.toString());
-        ListTreeNode nodeNew = connect(node1);
+        ListTreeNode nodeNew = connect1(node1);
         System.out.println(nodeNew.toString());
     }
 
     public static ListTreeNode connect(ListTreeNode root) {
-        fillNext(root);
-        return root;
-    }
-
-    public static ListTreeNode connect1(ListTreeNode root) {
         if(root == null){
             return null;
         }
@@ -55,14 +50,23 @@ public class NextNodeConnect {
         return root;
     }
 
+    public static ListTreeNode connect1(ListTreeNode root) {
+        fillNext(root);
+        return root;
+    }
+
     private static void fillNext(ListTreeNode root) {
         if(root == null) {
             return;
         }
         ListTreeNode left = root.left;
         ListTreeNode right = root.right;
-        if(left != null) {
-
+        while (left != null) {
+            left.next = right;
+            left = left.right;
+            right = right.left;
         }
+        fillNext(root.left);
+        fillNext(root.right);
     }
 }
