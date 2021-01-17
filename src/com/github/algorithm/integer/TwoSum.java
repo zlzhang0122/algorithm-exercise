@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 两数之和的计算
+ * 两数之和的计算(有重复数据情况和无重复数据情况)
  *
  * @Author: zlzhang0122
  * @Date: 2019/12/1 9:26 PM
