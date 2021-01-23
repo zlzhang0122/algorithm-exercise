@@ -45,7 +45,10 @@ public class StackDomain {
     }
 
     public int min(){
-        return minStack.peek();
+        if(minStack.size() > 0){
+            return minStack.peek();
+        }
+        return -1;
     }
 
     public String toString(){
