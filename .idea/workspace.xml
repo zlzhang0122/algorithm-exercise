@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="" />
+    <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/thread/MultiThreadPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +60,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinStackTest">
+  <component name="RunManager" selected="Application.MultiThreadPrint">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -151,20 +155,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="Feibonaqi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.other.Feibonaqi" />
-      <module name="algorithm-exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.algorithm.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.algorithm.binarytree.LowestCommonAncestor" />
       <module name="algorithm-exercise" />
@@ -186,6 +176,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.github.algorithm.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreadPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.thread.MultiThreadPrint" />
+      <module name="algorithm-exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,19 +344,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Feibonaqi" />
       <item itemvalue="Application.NextNodeConnect" />
       <item itemvalue="Application.LowestCommonAncestor" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.MinStackTest" />
+      <item itemvalue="Application.MultiThreadPrint" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreadPrint" />
         <item itemvalue="Application.MinStackTest" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.NextNodeConnect" />
         <item itemvalue="Application.LowestCommonAncestor" />
-        <item itemvalue="Application.Feibonaqi" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +417,13 @@
       <workItem from="1607353309212" duration="225000" />
       <workItem from="1610539320739" duration="596000" />
       <workItem from="1610897408469" duration="1154000" />
-      <workItem from="1611412229707" duration="1650000" />
+      <workItem from="1611412229707" duration="1820000" />
+      <workItem from="1612337926064" duration="751000" />
+      <workItem from="1614772001434" duration="878000" />
+      <workItem from="1616727216775" duration="251000" />
+      <workItem from="1619255136623" duration="11000" />
+      <workItem from="1624759693902" duration="2234000" />
+      <workItem from="1624894948149" duration="1309000" />
     </task>
     <servers />
   </component>
@@ -429,50 +439,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="455" height="466" key="DebuggerActiveHint" timestamp="1610898305572">
+    <state x="128" y="83" key="DiffContextDialog" timestamp="1616741442946">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="455" height="466" key="DebuggerActiveHint/0.23.1280.709@0.23.1280.709" timestamp="1610898305572" />
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom" timestamp="1611413798735">
+    <state x="128" y="83" key="DiffContextDialog/0.23.1280.709@0.23.1280.709" timestamp="1616741442946" />
+    <state width="1238" height="293" key="GridCell.Tab.0.bottom" timestamp="1624896328311">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1611413798735" />
-    <state width="1238" height="293" key="GridCell.Tab.0.center" timestamp="1611413798733">
+    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1624896328311" />
+    <state width="1238" height="293" key="GridCell.Tab.0.center" timestamp="1624896328310">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1611413798733" />
-    <state width="1238" height="293" key="GridCell.Tab.0.left" timestamp="1611413798732">
+    <state width="1238" height="293" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1624896328310" />
+    <state width="1238" height="293" key="GridCell.Tab.0.left" timestamp="1624896328310">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1611413798732" />
-    <state width="1238" height="293" key="GridCell.Tab.0.right" timestamp="1611413798733">
+    <state width="1238" height="293" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1624896328310" />
+    <state width="1238" height="293" key="GridCell.Tab.0.right" timestamp="1624896328311">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1611413798733" />
-    <state width="1238" height="218" key="GridCell.Tab.1.bottom" timestamp="1610898564945">
+    <state width="1238" height="293" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1624896328311" />
+    <state x="380" y="105" key="RollbackChangesDialog" timestamp="1616741444415">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1610898564945" />
-    <state width="1238" height="218" key="GridCell.Tab.1.center" timestamp="1610898564944">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1610898564944" />
-    <state width="1238" height="218" key="GridCell.Tab.1.left" timestamp="1610898564944">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1610898564944" />
-    <state width="1238" height="218" key="GridCell.Tab.1.right" timestamp="1610898564945">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1610898564945" />
-    <state x="369" y="87" key="RollbackChangesDialog" timestamp="1603188990564">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state x="369" y="87" key="RollbackChangesDialog/0.23.1280.709@0.23.1280.709" timestamp="1603188990564" />
-    <state x="305" y="56" width="670" height="676" key="search.everywhere.popup" timestamp="1610523284417">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state x="305" y="56" width="670" height="676" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1610523284417" />
+    <state x="380" y="105" key="RollbackChangesDialog/0.23.1280.709@0.23.1280.709" timestamp="1616741444415" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
