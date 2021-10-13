@@ -26,18 +26,52 @@ public class ListNodeReverse {
 
         ListNode listNodeTwo = reverseWithRecursion(listNodeOne);
         System.out.println(listNodeTwo);
+
+        ListNode listNodeThree = reverseWithoutRecursion2(listNodeTwo);
+        System.out.println(listNodeThree);
     }
 
     private static ListNode reverseWithoutRecursion(ListNode head){
-        ListNode pre = null, cur = head, nxt = head;
+        ListNode pre = null, cur = head, next = head;
         while(cur != null){
-            nxt = cur.next;
+            next = cur.next;
             cur.next = pre;
             pre = cur;
-            cur = nxt;
+            cur = next;
         }
 
         return pre;
+    }
+
+    /**
+     *
+     * 不妨拿出四本书，摞成一摞（自上而下为 A B C D），要让这四本书的位置完全颠倒过来（即自上而下为 D C B A）：
+     *
+     * 盯住书A，每次操作把A下面的那本书放到最上面
+     *
+     * 初始位置：自上而下为 A B C B
+     *
+     * 第一次操作后：自上而下为 B A C D
+     *
+     * 第二次操作后：自上而下为 C B A D
+     *
+     * 第三次操作后：自上而下为 D C B A
+     *
+     * @param head
+     * @return
+     */
+    private static ListNode reverseWithoutRecursion2(ListNode head){
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode pre = dummy, cur = head;
+        while(cur != null && cur.next != null){
+            ListNode temp = cur.next;
+            cur.next = temp.next;
+            temp.next = pre.next;
+            pre.next = temp;
+        }
+
+        return dummy.next;
     }
 
     private static ListNode reverseWithRecursion(ListNode head){
