@@ -32,7 +32,7 @@ public class ListNodeReverse {
     }
 
     private static ListNode reverseWithoutRecursion(ListNode head){
-        ListNode pre = null, cur = head, next = head;
+        ListNode pre = null, cur = head, next = null;
         while(cur != null){
             next = cur.next;
             cur.next = pre;

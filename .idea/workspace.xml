@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/linkrevert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/max/MaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/util/MathUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/thread/MultiThreadPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/thread/MultiThreadPrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListNodeReverse">
+  <component name="RunManager" selected="Application.MaxValue">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -157,20 +158,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.sort.BubbleSort" />
-      <module name="algorithm-exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.algorithm.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FirstThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.thread.FirstThreadTest" />
       <module name="algorithm-exercise" />
@@ -199,6 +186,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListNodeReverse2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.reversenode.ListNodeReverse2" />
+      <module name="algorithm-exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.algorithm.reversenode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.max.MaxValue" />
+      <module name="algorithm-exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.algorithm.max.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiThreadPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.thread.MultiThreadPrint" />
       <module name="algorithm-exercise" />
@@ -215,20 +230,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="linkrevert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.linkrevert" />
-      <module name="algorithm-exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -348,17 +349,17 @@
     <list>
       <item itemvalue="Application.MultiThreadPrint" />
       <item itemvalue="Application.FirstThreadTest" />
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.linkrevert" />
       <item itemvalue="Application.ListNodeReverse" />
+      <item itemvalue="Application.ListNodeReverse2" />
+      <item itemvalue="Application.MaxValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxValue" />
+        <item itemvalue="Application.ListNodeReverse2" />
         <item itemvalue="Application.ListNodeReverse" />
         <item itemvalue="Application.MultiThreadPrint" />
         <item itemvalue="Application.FirstThreadTest" />
-        <item itemvalue="Application.linkrevert" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +435,16 @@
       <workItem from="1631773435736" duration="3000" />
       <workItem from="1632313854994" duration="11000" />
       <workItem from="1632399673755" duration="9283000" />
-      <workItem from="1634139142772" duration="2911000" />
+      <workItem from="1634139142772" duration="3812000" />
+      <workItem from="1634818852874" duration="1369000" />
+      <workItem from="1636183113950" duration="3106000" />
+      <workItem from="1636372615782" duration="1568000" />
+      <workItem from="1636425763653" duration="154000" />
+      <workItem from="1637320473349" duration="47000" />
+      <workItem from="1637322510771" duration="23000" />
+      <workItem from="1637322563443" duration="5000" />
+      <workItem from="1637923509263" duration="518000" />
+      <workItem from="1637930368939" duration="2652000" />
     </task>
     <servers />
   </component>
@@ -454,65 +464,60 @@
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state x="387" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1280.702@0.25.1280.702" timestamp="1632406677997" />
-    <state width="528" height="434" key="DebuggerActiveHint" timestamp="1632401412897">
+    <state width="528" height="434" key="DebuggerActiveHint" timestamp="1637923945697">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="528" height="438" key="DebuggerActiveHint/0.23.1280.709@0.23.1280.709" timestamp="1628235384200" />
-    <state width="528" height="434" key="DebuggerActiveHint/0.25.1280.702@0.25.1280.702" timestamp="1632401412897" />
+    <state width="528" height="434" key="DebuggerActiveHint/0.25.1280.702@0.25.1280.702" timestamp="1637923945697" />
     <state x="128" y="84" key="DiffContextDialog" timestamp="1634139351902">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state x="128" y="83" key="DiffContextDialog/0.23.1280.709@0.23.1280.709" timestamp="1631634963759" />
     <state x="128" y="84" key="DiffContextDialog/0.25.1280.702@0.25.1280.702" timestamp="1634139351902" />
-    <state width="1238" height="286" key="GridCell.Tab.0.bottom" timestamp="1634142013622">
+    <state width="1238" height="286" key="GridCell.Tab.0.bottom" timestamp="1637932020868">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1631675009457" />
-    <state width="1238" height="286" key="GridCell.Tab.0.bottom/0.25.1280.702@0.25.1280.702" timestamp="1634142013622" />
-    <state width="1238" height="286" key="GridCell.Tab.0.center" timestamp="1634142013621">
+    <state width="1238" height="286" key="GridCell.Tab.0.bottom/0.25.1280.702@0.25.1280.702" timestamp="1637932020868" />
+    <state width="1238" height="286" key="GridCell.Tab.0.center" timestamp="1637932020867">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state width="1238" height="293" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1631675009455" />
-    <state width="1238" height="286" key="GridCell.Tab.0.center/0.25.1280.702@0.25.1280.702" timestamp="1634142013621" />
-    <state width="1238" height="286" key="GridCell.Tab.0.left" timestamp="1634142013621">
+    <state width="1238" height="286" key="GridCell.Tab.0.center/0.25.1280.702@0.25.1280.702" timestamp="1637932020867" />
+    <state width="1238" height="286" key="GridCell.Tab.0.left" timestamp="1637932020867">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state width="1238" height="293" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1631675009454" />
-    <state width="1238" height="286" key="GridCell.Tab.0.left/0.25.1280.702@0.25.1280.702" timestamp="1634142013621" />
-    <state width="1238" height="286" key="GridCell.Tab.0.right" timestamp="1634142013622">
+    <state width="1238" height="286" key="GridCell.Tab.0.left/0.25.1280.702@0.25.1280.702" timestamp="1637932020867" />
+    <state width="1238" height="286" key="GridCell.Tab.0.right" timestamp="1637932020867">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state width="1238" height="293" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1631675009456" />
-    <state width="1238" height="286" key="GridCell.Tab.0.right/0.25.1280.702@0.25.1280.702" timestamp="1634142013622" />
-    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1634139771200">
+    <state width="1238" height="286" key="GridCell.Tab.0.right/0.25.1280.702@0.25.1280.702" timestamp="1637932020867" />
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1637925819895">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1628407036359" />
-    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.25.1280.702@0.25.1280.702" timestamp="1634139771200" />
-    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1634139771198">
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.25.1280.702@0.25.1280.702" timestamp="1637925819895" />
+    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1637925819894">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1628407036359" />
-    <state width="1238" height="212" key="GridCell.Tab.1.center/0.25.1280.702@0.25.1280.702" timestamp="1634139771198" />
-    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1634139771198">
+    <state width="1238" height="212" key="GridCell.Tab.1.center/0.25.1280.702@0.25.1280.702" timestamp="1637925819894" />
+    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1637925819894">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1628407036358" />
-    <state width="1238" height="212" key="GridCell.Tab.1.left/0.25.1280.702@0.25.1280.702" timestamp="1634139771198" />
-    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1634139771199">
+    <state width="1238" height="212" key="GridCell.Tab.1.left/0.25.1280.702@0.25.1280.702" timestamp="1637925819894" />
+    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1637925819894">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1628407036359" />
-    <state width="1238" height="212" key="GridCell.Tab.1.right/0.25.1280.702@0.25.1280.702" timestamp="1634139771199" />
-    <state x="369" y="88" key="RollbackChangesDialog" timestamp="1634139353334">
+    <state width="1238" height="212" key="GridCell.Tab.1.right/0.25.1280.702@0.25.1280.702" timestamp="1637925819894" />
+    <state x="369" y="88" key="RollbackChangesDialog" timestamp="1636183334082">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state x="369" y="87" key="RollbackChangesDialog/0.23.1280.709@0.23.1280.709" timestamp="1631634969475" />
-    <state x="369" y="88" key="RollbackChangesDialog/0.25.1280.702@0.25.1280.702" timestamp="1634139353334" />
-    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup" timestamp="1634141178677">
+    <state x="369" y="88" key="RollbackChangesDialog/0.25.1280.702@0.25.1280.702" timestamp="1636183334082" />
+    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup" timestamp="1637923586939">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup/0.25.1280.702@0.25.1280.702" timestamp="1634141178677" />
+    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup/0.25.1280.702@0.25.1280.702" timestamp="1637923586939" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,6 +531,16 @@
           <url>file://$PROJECT_DIR$/src/com/github/exception/ExceptionStrip.java</url>
           <line>22</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
