@@ -1,4 +1,4 @@
-package com.github.algorithm.fib;
+package com.github.algorithm.exercise;
 
 /**
  * @Author: zlzhang0122
