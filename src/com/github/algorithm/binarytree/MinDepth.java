@@ -1,6 +1,10 @@
 package com.github.algorithm.binarytree;
 
 import com.github.algorithm.util.TreeNode;
+import sun.awt.image.ImageWatched;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * 二叉树的最短高度
@@ -22,6 +26,9 @@ public class MinDepth {
 
         int res = minDepth(treeNode1);
         System.out.println(res);
+
+        int res1 = minDepth2(treeNode1);
+        System.out.println(res1);
     }
 
     private static int minDepth(TreeNode root) {
@@ -35,5 +42,29 @@ public class MinDepth {
             return 1 + minDepth(root.left);
         }
         return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
+    }
+
+    private static int minDepth2(TreeNode root){
+        if(root == null) return 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        int depth = 1;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++){
+                TreeNode item = queue.poll();
+                if (item.left == null && item.right == null){
+                    return depth;
+                }
+                if(item.left != null){
+                    queue.offer(item.left);
+                }
+                if(item.right != null){
+                    queue.offer(item.right);
+                }
+            }
+            depth++;
+        }
+        return depth;
     }
 }
