@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c0c549-069f-46a2-a3b7-206083a8079d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/max/MaxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/algorithm/util/MathUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/algorithm/reversenode/ListNodeReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/thread/MultiThreadPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/thread/MultiThreadPrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +49,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.algorithm.reversenode" />
+      <recent name="com.github.algorithm.binarytree" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.github.algorithm.binarytree" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.MaxValue">
+  <component name="RunManager" selected="Application.ListNodeReverseK">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -158,13 +156,13 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="FirstThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.thread.FirstThreadTest" />
+    <configuration name="InAndPostBuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.binarytree.InAndPostBuildTree" />
       <module name="algorithm-exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.thread.*" />
+          <option name="PATTERN" value="com.github.algorithm.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListNodeReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.reversenode.ListNodeReverse" />
+    <configuration name="ListNodeReverseK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.reversenode.ListNodeReverseK" />
       <module name="algorithm-exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -186,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListNodeReverse2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.reversenode.ListNodeReverse2" />
+    <configuration name="ListNodeReverseN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.reversenode.ListNodeReverseN" />
       <module name="algorithm-exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -200,13 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.max.MaxValue" />
+    <configuration name="MidArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.algorithm.midarray.MidArray" />
       <module name="algorithm-exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.algorithm.max.*" />
+          <option name="PATTERN" value="com.github.algorithm.midarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,19 +345,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.InAndPostBuildTree" />
       <item itemvalue="Application.MultiThreadPrint" />
-      <item itemvalue="Application.FirstThreadTest" />
-      <item itemvalue="Application.ListNodeReverse" />
-      <item itemvalue="Application.ListNodeReverse2" />
-      <item itemvalue="Application.MaxValue" />
+      <item itemvalue="Application.ListNodeReverseN" />
+      <item itemvalue="Application.MidArray" />
+      <item itemvalue="Application.ListNodeReverseK" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxValue" />
-        <item itemvalue="Application.ListNodeReverse2" />
-        <item itemvalue="Application.ListNodeReverse" />
+        <item itemvalue="Application.ListNodeReverseK" />
+        <item itemvalue="Application.ListNodeReverseN" />
+        <item itemvalue="Application.MidArray" />
         <item itemvalue="Application.MultiThreadPrint" />
-        <item itemvalue="Application.FirstThreadTest" />
+        <item itemvalue="Application.InAndPostBuildTree" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +442,21 @@
       <workItem from="1637322510771" duration="23000" />
       <workItem from="1637322563443" duration="5000" />
       <workItem from="1637923509263" duration="518000" />
-      <workItem from="1637930368939" duration="2652000" />
+      <workItem from="1637930368939" duration="2710000" />
+      <workItem from="1638615573972" duration="433000" />
+      <workItem from="1638838455977" duration="460000" />
+      <workItem from="1638844877254" duration="2776000" />
+      <workItem from="1640861335850" duration="669000" />
+      <workItem from="1641286284969" duration="678000" />
+      <workItem from="1642161425127" duration="775000" />
+      <workItem from="1644389578106" duration="426000" />
+      <workItem from="1644473638111" duration="907000" />
+      <workItem from="1646133598438" duration="1929000" />
+      <workItem from="1646826057017" duration="810000" />
+      <workItem from="1648112637910" duration="2829000" />
+      <workItem from="1648888341447" duration="38000" />
+      <workItem from="1654682930080" duration="1924000" />
+      <workItem from="1654926132502" duration="16035000" />
     </task>
     <servers />
   </component>
@@ -460,64 +472,50 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="387" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1632406677997">
+    <state width="424" height="466" key="DebuggerActiveHint" timestamp="1654929293538">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="387" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1280.702@0.25.1280.702" timestamp="1632406677997" />
-    <state width="528" height="434" key="DebuggerActiveHint" timestamp="1637923945697">
+    <state width="424" height="466" key="DebuggerActiveHint/0.25.1280.702@0.25.1280.702" timestamp="1654929293538" />
+    <state x="129" y="81" key="DiffContextDialog" timestamp="1654926218559">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="528" height="434" key="DebuggerActiveHint/0.25.1280.702@0.25.1280.702" timestamp="1637923945697" />
-    <state x="128" y="84" key="DiffContextDialog" timestamp="1634139351902">
+    <state x="129" y="81" key="DiffContextDialog/0.25.1280.702@0.25.1280.702" timestamp="1654926218559" />
+    <state width="1238" height="286" key="GridCell.Tab.0.bottom" timestamp="1655295198376">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="128" y="83" key="DiffContextDialog/0.23.1280.709@0.23.1280.709" timestamp="1631634963759" />
-    <state x="128" y="84" key="DiffContextDialog/0.25.1280.702@0.25.1280.702" timestamp="1634139351902" />
-    <state width="1238" height="286" key="GridCell.Tab.0.bottom" timestamp="1637932020868">
+    <state width="1238" height="286" key="GridCell.Tab.0.bottom/0.25.1280.702@0.25.1280.702" timestamp="1655295198376" />
+    <state width="1238" height="286" key="GridCell.Tab.0.center" timestamp="1655295198375">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1631675009457" />
-    <state width="1238" height="286" key="GridCell.Tab.0.bottom/0.25.1280.702@0.25.1280.702" timestamp="1637932020868" />
-    <state width="1238" height="286" key="GridCell.Tab.0.center" timestamp="1637932020867">
+    <state width="1238" height="286" key="GridCell.Tab.0.center/0.25.1280.702@0.25.1280.702" timestamp="1655295198375" />
+    <state width="1238" height="286" key="GridCell.Tab.0.left" timestamp="1655295198375">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1631675009455" />
-    <state width="1238" height="286" key="GridCell.Tab.0.center/0.25.1280.702@0.25.1280.702" timestamp="1637932020867" />
-    <state width="1238" height="286" key="GridCell.Tab.0.left" timestamp="1637932020867">
+    <state width="1238" height="286" key="GridCell.Tab.0.left/0.25.1280.702@0.25.1280.702" timestamp="1655295198375" />
+    <state width="1238" height="286" key="GridCell.Tab.0.right" timestamp="1655295198375">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1631675009454" />
-    <state width="1238" height="286" key="GridCell.Tab.0.left/0.25.1280.702@0.25.1280.702" timestamp="1637932020867" />
-    <state width="1238" height="286" key="GridCell.Tab.0.right" timestamp="1637932020867">
+    <state width="1238" height="286" key="GridCell.Tab.0.right/0.25.1280.702@0.25.1280.702" timestamp="1655295198375" />
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1655295149573">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1631675009456" />
-    <state width="1238" height="286" key="GridCell.Tab.0.right/0.25.1280.702@0.25.1280.702" timestamp="1637932020867" />
-    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1637925819895">
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.25.1280.702@0.25.1280.702" timestamp="1655295149573" />
+    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1655295149572">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.25.1280.702@0.25.1280.702" timestamp="1637925819895" />
-    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1637925819894">
+    <state width="1238" height="212" key="GridCell.Tab.1.center/0.25.1280.702@0.25.1280.702" timestamp="1655295149572" />
+    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1655295149572">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.center/0.25.1280.702@0.25.1280.702" timestamp="1637925819894" />
-    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1637925819894">
+    <state width="1238" height="212" key="GridCell.Tab.1.left/0.25.1280.702@0.25.1280.702" timestamp="1655295149572" />
+    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1655295149572">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.left/0.25.1280.702@0.25.1280.702" timestamp="1637925819894" />
-    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1637925819894">
+    <state width="1238" height="212" key="GridCell.Tab.1.right/0.25.1280.702@0.25.1280.702" timestamp="1655295149572" />
+    <state x="375" y="82" key="RollbackChangesDialog" timestamp="1654926219802">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.right/0.25.1280.702@0.25.1280.702" timestamp="1637925819894" />
-    <state x="369" y="88" key="RollbackChangesDialog" timestamp="1636183334082">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="369" y="87" key="RollbackChangesDialog/0.23.1280.709@0.23.1280.709" timestamp="1631634969475" />
-    <state x="369" y="88" key="RollbackChangesDialog/0.25.1280.702@0.25.1280.702" timestamp="1636183334082" />
-    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup" timestamp="1637923586939">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup/0.25.1280.702@0.25.1280.702" timestamp="1637923586939" />
+    <state x="375" y="82" key="RollbackChangesDialog/0.25.1280.702@0.25.1280.702" timestamp="1654926219802" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -541,6 +539,11 @@
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java</url>
           <line>209</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/github/algorithm/exercise/ListTraverse.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

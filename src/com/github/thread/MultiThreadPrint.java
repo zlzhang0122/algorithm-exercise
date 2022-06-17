@@ -21,7 +21,6 @@ public class MultiThreadPrint {
                     }catch (Exception e){
                         e.printStackTrace();
                     }
-//                    o.notifyAll();
                 }
             }
         };
